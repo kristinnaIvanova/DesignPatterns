@@ -7,7 +7,7 @@ using System.Text;
 /// </summary>
 public class Command
 {
-    //свойства - характеристики на модела
+    //свойства - характеристики на командата
     public string Usage { get; set; }
 
     //конструктор
@@ -16,7 +16,7 @@ public class Command
         this.Usage = usage;
     }
 
-    //извличане на всички детайли относно телефона
+    //извличане на всички детайли относно командата
     public string GetDetails()
     {
        return this.Usage;
