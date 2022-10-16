@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 /// <summary>
-/// Клас 'IPhone'
+/// Клас 'Command'
 /// </summary>
 public class Command
 {
